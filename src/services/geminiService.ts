@@ -20,6 +20,12 @@ CLINICIAN'S CONCERN/QUESTION:
 ${clinicianConcern}
 
 Please provide evidence-based therapeutic strategies, potential approaches, and considerations that might help the clinician in this specific situation. Focus on practical guidance that can be implemented in a counseling setting.
+
+When outputting your final answer to guide the clinician, provide the following:
+
+- What you think is happening/what you believe the diagnosis/condition is
+- Answers to each of the questions that the clinician ask you
+- Guidance on how to proceed with caring for the patient
 `;
 
     const result = await model.generateContent(prompt);
