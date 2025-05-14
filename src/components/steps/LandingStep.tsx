@@ -12,11 +12,10 @@ const LandingStep = ({ onNext }: LandingStepProps) => {
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-counselor-700 to-wellness-700 text-white px-6">
       <div className="max-w-3xl text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-          MindGuide
+          CliniGuide
         </h1>
         <p className="text-xl md:text-2xl mb-8 opacity-90">
-          AI-powered guidance for mental health counselors to navigate
-          challenging patient scenarios.
+          AI-powered guidance for mental health professionals; helping you navigate complex situations the right way.
         </p>
         <p className="text-lg mb-12 opacity-80">
           Get evidence-based recommendations tailored to your specific patient needs.
@@ -24,7 +23,7 @@ const LandingStep = ({ onNext }: LandingStepProps) => {
         <Button 
           onClick={onNext} 
           size="lg" 
-          className="bg-white text-counselor-800 hover:bg-gray-100 flex items-center gap-2"
+          className="bg-white text-counselor-800 hover:bg-gray-100 flex justify-center items-center gap-2"
         >
           Get Started
           <ArrowRight size={16} />
