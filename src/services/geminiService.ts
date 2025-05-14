@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // This API key should be stored securely in a production environment
 // For this POC, we'll use a placeholder that the user will need to replace
-const API_KEY = "AIzaSyBFGzpfkPHxCRmEjHKhM97ayxiU9klxfiA";
+const API_KEY = "AIzaSyCK19WWHFdJ-rGQfSTAanNUNLoKPPmCCF4";
 
 export async function getGuidance(patientContext: string, clinicianConcern: string): Promise<string> {
   try {
