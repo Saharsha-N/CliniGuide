@@ -24,8 +24,8 @@ Please provide evidence-based therapeutic strategies, potential approaches, and 
 When outputting your final answer to guide the clinician, provide the following:
 
 - What you think is happening/what you believe the diagnosis/condition is
-- Answers to each of the questions that the clinician ask you
-- Guidance on how to proceed with caring for the patient
+- Answers to each of the questions that the clinician ask you. Answer this in the first person as the user is the clinician.
+- Guidance on how to proceed with caring for the patient. Answer this in the first person as the user is the clinician.
 `;
 
     const result = await model.generateContent(prompt);
