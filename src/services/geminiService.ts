@@ -8,7 +8,7 @@ const API_KEY = "AIzaSyCK19WWHFdJ-rGQfSTAanNUNLoKPPmCCF4";
 export async function getGuidance(patientContext: string, clinicianConcern: string): Promise<string> {
   try {
     const genAI = new GoogleGenerativeAI(API_KEY);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     const prompt = `
 As an AI assistant for mental health counselors, please provide guidance based on the following:
