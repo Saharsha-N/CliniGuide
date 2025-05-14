@@ -23,7 +23,7 @@ const HeroSection = () => {
           </p>
           <Button
             onClick={scrollToConsult}
-            className="bg-white text-counselor-800 hover:bg-gray-100 flex items-center gap-2 mx-auto"
+            className="bg-white text-counselor-800 hover:bg-gray-100 flex justify-center items-center gap-2 mx-auto"
             size="lg"
           >
             Get Started
